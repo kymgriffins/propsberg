@@ -17,6 +17,10 @@ const badgeVariants = cva(
           "border-transparent bg-destructive text-white [a&]:hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
         outline:
           "text-foreground [a&]:hover:bg-accent [a&]:hover:text-accent-foreground",
+        bullish: "border-transparent bg-green-500/20 text-green-400 border-green-500/30",
+        bearish: "border-transparent bg-red-500/20 text-red-400 border-red-500/30",
+        neutral: "border-transparent bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
+        info: "border-transparent bg-cyan-500/20 text-cyan-400 border-cyan-500/30",
       },
     },
     defaultVariants: {

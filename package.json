@@ -1,9 +1,9 @@
 {
-  "name": "sage",
+  "name": "propsberg",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "set TURBOPACK=0 && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
