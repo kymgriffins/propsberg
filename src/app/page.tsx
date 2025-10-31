@@ -32,7 +32,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="px-6 py-6">
+      <div className="px-6 py-6 pt-0">
         {/* Market Overview Cards */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <Card className="p-6 bg-gradient-to-br from-white/5 to-white/10 border-white/10 animate-scale-in hover-lift hover-glow cursor-pointer group transition-fluid">
